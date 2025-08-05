@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-OPEN_SOURCE_URL = "https://jsonplaceholder.typicode.com/posts"
+OPEN_SOURCE_URL = "https://jsonplaceholder.typicode.com/users"
 
 @app.route('/sorted-data', methods=['GET'])
 def get_sorted_data():
